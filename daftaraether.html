@@ -17,10 +17,10 @@
         }
         .form {
             background: #222;
-            padding: 1.5rem;
+            padding: 1.4rem;
             border-radius: 8px;
-            width: 90%;
-            max-width: 400px;
+            width: 80%;
+            max-width: 490px;
             box-shadow: 0 0 8px rgba(255, 0, 0, 0.4);
         }
         h2 {
@@ -99,7 +99,7 @@
         const webhookURL = 'https://discord.com/api/webhooks/1322895923378130985/4Hvo8EZSzRvSNhGB3BgQYgj1XJw1OJZvFHYR1I6jn0lO_Ym8bzl_iXknCQjKfPOyboEN';  // Ganti sama webhook Discord lu
 
         const data = {
-            content: `**Pendaftaran Baru**\nNama: ${nama}\nUmur: ${umur}\nEmail: ${email}\nPosisi: ${job}\nAlasan: ${alasan}`
+            content: `# Pendaftar Baru \nNama: ${nama}\nUmur: ${umur}\nEmail: ${email}\nPosisi: ${job}\nAlasan: ${alasan}`
         };
 
         await fetch(webhookURL, {
